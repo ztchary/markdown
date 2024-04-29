@@ -1,5 +1,8 @@
-html, body{
+*{
   font-family: "Roboto Mono", monospace;
+}
+
+html, body {
   background: #000;
   color: #eee;
   font: 20px sans-serif;
