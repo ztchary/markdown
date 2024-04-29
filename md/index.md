@@ -1,7 +1,6 @@
 # ZTCHARY HOME
-
-heres a [cool link](/cheatsheet)
-
 ---
 
-###### powered by Markdown
+### My contacts
+- Github [@ztchary](https://github.com/ztchary)
+- X
