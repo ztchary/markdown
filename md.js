@@ -109,7 +109,7 @@ function parseMd(data) {
       let alt = line.slice(2, endalt);
       let url = line.slice(endalt+2, endurl);
       let ie = document.createElement("img");
-      ie.href = url;
+      ie.src = url;
       ie.alt = alt;
       content.appendChild(ie);
     } else {
