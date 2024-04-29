@@ -104,16 +104,14 @@ function parseMd(data) {
       he.innerHTML = line.slice(l+1);
       content.appendChild(he);
     } else if (line.startsWith("![")) {
-      let endalt = i + line.slice(i).indexOf("](");
+      let endalt = line.indexOf("](");
       let endurl = endalt + line.slice(endalt).indexOf(")");
-      let alt = line.slice(i+1, endalt);
+      let alt = line.slice(2, endalt);
       let url = line.slice(endalt+2, endurl);
-      i = endurl;
       let ie = document.createElement("img");
       ie.href = url;
       ie.alt = alt;
       content.appendChild(ie);
-      break;
     } else {
       let pe = document.createElement("p");
       parseLine(line, pe);
