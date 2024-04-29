@@ -1,0 +1,32 @@
+html, body{
+  background: #000;
+  color: #eee;
+  font: 20px sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.content{
+  background: #222;
+  width: 60%;
+  padding: 20px 5%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+code{
+  background: #333;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+a{
+  color: #aef;
+}
+
+a:hover{
+  color: #fff;
+  transition: 0.2s;
+}
